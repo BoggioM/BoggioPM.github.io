@@ -6,7 +6,7 @@
 }
 
 .navbar {
-  background: #131313;
+  background: #fff;
   height: 80px;
   display: flex;
   justify-content: center;
@@ -30,7 +30,7 @@
 
 #navbar__logo {
   background-color: #77ffb4;
-  background-image: linear-gradient(to top, #c00404 0%, #fc0b0b 100%);
+  background-image: linear-gradient(to top, #e9d5d5 0%, #fc0b0b 100%);
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -59,7 +59,7 @@
 }
 
 .navbar__links {
-  color: #fff;
+  color: #af86c9;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -91,9 +91,31 @@
   color: #fff;
 }
 
+.button a {
+  position: relative;
+  z-index: 2;
+  color: #131313;
+  text-decoration: none;
+}
+
+.button:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: linear-gradient(to left, #45d4c9 0%, #fff 100%);
+  transition: all 0.35s;
+  border-radius: 4px;
+}
+
 .button:hover {
-  background: #4837ff;
-  transition: all 0.3s ease;
+  color: #fff;
+}
+
+.button:hover:after {
+  width: 100%;
 }
 
 .navbar__links:hover {
@@ -127,7 +149,7 @@
   }
 
   .navbar__menu.active {
-    background: #131313;
+    background: #fff;
     top: 100%;
     opacity: 1;
     transition: all 0.5s ease;
@@ -145,7 +167,7 @@
     height: 3px;
     margin: 5px auto;
     transition: all 0.3s ease-in-out;
-    background: #fff;
+    background: #131313;
   }
 
   .navbar__item {
@@ -199,7 +221,7 @@
 
 /* Hero Section CSS */
 .main {
-  background-color: #272121;
+  background-color: #1d1c1c;
 }
 
 .main__container {
@@ -209,7 +231,7 @@
   justify-self: center;
   margin: 0 auto;
   height: 90vh;
-  background-color: #1d1c1c;
+  background: linear-gradient(to left, #c6f5ff 0%, #dfb2fb 100%);
   z-index: 1;
   width: 100%;
   max-width: 1300px;
@@ -219,7 +241,7 @@
 .main__content h1 {
   font-size: 4rem;
   background-color: #ff8177;
-  background-image: linear-gradient(to top, #7a0c0c 0%, #d80202 100%);
+  background-image: linear-gradient(to right, #ec3e85 0%, #fc0b0b 100%);
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -231,7 +253,7 @@
   margin-top: 1rem;
   font-size: 2rem;
   font-weight: 700;
-  color: #fff;
+  color: #131313;
 }
 
 .main__btn {
@@ -251,7 +273,7 @@
 .main__btn a {
   position: relative;
   z-index: 2;
-  color: #fff;
+  color: #131313;
   text-decoration: none;
 }
 
@@ -262,7 +284,7 @@
   left: 0;
   width: 0;
   height: 100%;
-  background: #4837ff;
+  background: linear-gradient(to left, #45d4c9 0%, #fff 100%);
   transition: all 0.35s;
   border-radius: 4px;
 }
