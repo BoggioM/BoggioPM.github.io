@@ -221,7 +221,7 @@
 
 /* Hero Section CSS */
 .main {
-  background-color: #1d1c1c;
+  background: linear-gradient(to top, #c6f5ff 0%, #dfb2fb 100%);
 }
 
 .main__container {
@@ -231,7 +231,7 @@
   justify-self: center;
   margin: 0 auto;
   height: 90vh;
-  background: linear-gradient(to left, #c6f5ff 0%, #dfb2fb 100%);
+  background: linear-gradient(to top, #c6f5ff 0%, #dfb2fb 100%);
   z-index: 1;
   width: 100%;
   max-width: 1300px;
