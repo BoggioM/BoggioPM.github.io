@@ -37,6 +37,7 @@
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
   display: flex;
+  width: 170px;
   align-items: center;
   cursor: pointer;
   text-decoration: none;
