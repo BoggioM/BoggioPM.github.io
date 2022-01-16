@@ -21,10 +21,6 @@
   display: flex;
   justify-content: space-between;
   height: 80px;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
   z-index: 1;
   width: 100%;
   max-width: 1300px;
