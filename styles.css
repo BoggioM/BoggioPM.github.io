@@ -356,10 +356,11 @@
 
 .sub {
   background: linear-gradient(to bottom, #c6f5ff 0%, #584e5f 100%);
+  display: flexbox;
 }
 
 .sub__container {
-  display: grid;
+  display: flex;
   grid-template-columns: 1fr 1fr;
   align-items: flex-start;
   justify-self: center;
@@ -373,6 +374,7 @@
 }
 
 .sub__content h1 {
+  display: flex;
   font-size: 2rem;
   background-color: #ff8177;
   background-image: linear-gradient(to left, #ec3e85 0%, #fc0b0b 100%);
@@ -384,6 +386,7 @@
 }
 
 .sub__content p {
+  display: flex;
   margin-top: 1rem;
   font-size: 1rem;
   font-weight: 700;
