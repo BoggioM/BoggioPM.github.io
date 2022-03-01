@@ -364,7 +364,7 @@
   align-items: flex-start;
   justify-self: center;
   margin: 0 auto;
-  height: 90vh;
+  height: 100vh;
   background: linear-gradient(to bottom, #c6f5ff 0%, #584e5f 100%);
   z-index: 1;
   width: 100%;
@@ -373,7 +373,7 @@
 }
 
 .sub__content h1 {
-  font-size: 4rem;
+  font-size: 2rem;
   background-color: #ff8177;
   background-image: linear-gradient(to left, #ec3e85 0%, #fc0b0b 100%);
   background-size: 100%;
