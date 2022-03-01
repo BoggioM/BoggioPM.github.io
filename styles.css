@@ -355,7 +355,7 @@
 }
 
 .sub {
-  background: linear-gradient(to bottom, #c6f5ff 0%, #584e5f 100%);
+  background: #c6f5ff;
   display: flexbox;
 }
 .sub img {
@@ -369,7 +369,7 @@
   justify-self: center;
   margin: 0 auto;
   height: 110vh;
-  background: linear-gradient(to bottom, #c6f5ff 0%, #584e5f 100%);
+  
   z-index: 1;
   width: 100%;
   max-width: 1300px;
@@ -398,7 +398,7 @@
 
 .sub__btn {
   font-size: 1rem;
-  background-image: linear-gradient(to top, #f77062 0%, #fe5196 100%);
+  background-image: linear-gradient(to bottom, #f77062 0%, #fe5196 100%);
   padding: 14px 32px;
   border: none;
   border-radius: 4px;
